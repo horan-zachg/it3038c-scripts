@@ -14,7 +14,7 @@ while win==False:
         if rn == number:
             win = True
             print("You guessed the correct number!", rn)
-            print('You guessed the number in:',turns,'turns')
+            print('You guessed the correct number in:',turns,'turns')
             break
         else:
             turns += 1

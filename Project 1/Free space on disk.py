@@ -10,11 +10,11 @@ def bytestogb(bytes):
         Megabytes = kilo / 1024
         if Megabytes >= 1024:
             Gigabytes = Megabytes / 1024
-            return "%.2fG" % (G)
+            return "%.2fG" % (Gigabytes)
         else:
-            return "%.2fM" % (M)
+            return "%.2fM" % (Megabytes)
     else:
-        return "%.2fkb" % (kb)
+        return "%.2fkb" % (kilo)
 ##The lines above were not written by me. The code has slight changes but is similar to the source
 #https://www.tutorialexample.com/a-simple-guide-to-python-get-disk-or-directory-total-space-used-space-and-free-space-python-tutorial/
 print("This script will let you know how much free space is remaining on a disk")

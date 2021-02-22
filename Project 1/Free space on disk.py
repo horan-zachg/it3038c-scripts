@@ -25,4 +25,3 @@ number1 = input("Enter your disk letter to see how much storage you have left on
 usage = shutil.disk_usage(number1)
 free_space = formatSize(usage[2])
 print('Your free space is:', free_space)
-

@@ -29,3 +29,4 @@ remaininggb = bytestogb(usage[2])
 ##the drives declaration is also taken from snippets of code from stack overflow due to the drives command running from the import
 ##https://stackoverflow.com/questions/827371/is-there-a-way-to-list-all-the-available-drive-letters-in-python
 print('Your free space is:', remaininggb)
+##I decided to make this script because my pc currently has 9 drives and would be easier to check with this instead of disk management or file explorer

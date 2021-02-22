@@ -3,18 +3,19 @@ import win32api
 def bytestogb(bytes):
     try:
         bytes = float(bytes)
-        kb = bytes / 1024
+        kilo = bytes / 1024
     except:
         return "Please enter a valid disk letter"
-    if kb >= 1024:
-        M = kb / 1024
-        if M >= 1024:
-            G = M / 1024
+    if kilo >= 1024:
+        Megabytes = kilo / 1024
+        if Megabytes >= 1024:
+            Gigabytes = Megabytes / 1024
             return "%.2fG" % (G)
         else:
             return "%.2fM" % (M)
     else:
         return "%.2fkb" % (kb)
+##The lines above were not written by me. The code has slight changes but is similar to the source
 #https://www.tutorialexample.com/a-simple-guide-to-python-get-disk-or-directory-total-space-used-space-and-free-space-python-tutorial/
 print("This script will let you know how much free space is remaining on a disk")
 print("Example disk letter input would be: C:\\")
@@ -25,5 +26,6 @@ print(drives)
 number1 = input("Enter your disk letter to see how much storage you have left on the drive: ")
 usage = shutil.disk_usage(number1)
 remaininggb = bytestogb(usage[2])
+##the drives declaration is also taken from snippets of code from stack overflow due to the drives command running from the import
 ##https://stackoverflow.com/questions/827371/is-there-a-way-to-list-all-the-available-drive-letters-in-python
 print('Your free space is:', remaininggb)

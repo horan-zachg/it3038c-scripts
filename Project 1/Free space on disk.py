@@ -1,6 +1,6 @@
 import shutil
 import win32api
-def formatSize(bytes):
+def bytestogb(bytes):
     try:
         bytes = float(bytes)
         kb = bytes / 1024
@@ -24,6 +24,6 @@ drives = drives.split('\000')[:-1]
 print(drives)
 number1 = input("Enter your disk letter to see how much storage you have left on the drive: ")
 usage = shutil.disk_usage(number1)
-free_space = formatSize(usage[2])
+remaininggb = bytestogb(usage[2])
 ##https://stackoverflow.com/questions/827371/is-there-a-way-to-list-all-the-available-drive-letters-in-python
-print('Your free space is:', free_space)
+print('Your free space is:', remaininggb)

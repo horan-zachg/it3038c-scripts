@@ -1,1 +1,6 @@
 output.log
+npm
+node_modules
+*.log.pycache
+*.txt
+/directoryname

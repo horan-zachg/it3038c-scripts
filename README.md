@@ -2,7 +2,7 @@ My App
 ======
 Remote.ps1:
 This script is a practice script for Project 2 in scripting class. 
-This script take basic machine info from a computer and output's it into a location you set in Line 2 of the script
+This script takes basic machine info from a computer and output's it into a location you set in Line 2 of the script
 To run this script CD into the directory in VS and enter:
 ```Powershell
 .\Remote.ps1

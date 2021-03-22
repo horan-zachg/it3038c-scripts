@@ -10,7 +10,7 @@ To run this script CD into the directory in VS and enter:
 ```Powershell
 .\Remote.ps1
 ```
-After this go to the location you set and you should see a file named Information.
+After this go to the location you set and you should see a file named "Information".
 <br />
 Once you learn PSRemoting you can use a script like this to run on a remote machine take the information and send it to the log file.
 <br />

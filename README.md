@@ -1,6 +1,15 @@
 My App
 ======
-
+Remote.ps1:
+This script is a practice script for Project 2 in scripting class. 
+This script take basic machine info from a computer and output's it into a location you set in Line 2 of the script
+To run this script CD into the directory in VS and enter:
+```Powershell
+.\Remote.ps1
+```
+After this go to the location you set and you should see a file named Information.
+Once you learn PSRemoting you can use a script like this to run on a remote machine take the information and send it to the log file.
+From here you could use the output log file to enter information of the computer into a database or something.
 Lab 7:
 This script is a simple script that allows you to BLUR, EMBOSS, or SHARPEN an image.
 To use this script you want to begin by installing PILLOW for Python.

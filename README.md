@@ -10,6 +10,7 @@ To run this script CD into the directory in VS and enter:
 After this go to the location you set and you should see a file named Information.
 Once you learn PSRemoting you can use a script like this to run on a remote machine take the information and send it to the log file.
 From here you could use the output log file to enter information of the computer into a database or something.
+<br />
 Lab 7:
 This script is a simple script that allows you to BLUR, EMBOSS, or SHARPEN an image.
 To use this script you want to begin by installing PILLOW for Python.

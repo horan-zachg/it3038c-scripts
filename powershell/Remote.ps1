@@ -23,5 +23,5 @@ Add-Content $info $OS
 Add-Content $info "~~~~~~~~~~~~~~~~~User info~~~~~~~~~~~~~~~~~"
 Add-Content $info $USER
 
-##I decided to go with learning how to create a script that outputs a log to run on remote machines that uses active directory
+##I decided to go with learning how to create a script that outputs a log to run on remote machines through AD.
 ##This script can be used on remote machines to find info that is put into a log that can then be used for another script.

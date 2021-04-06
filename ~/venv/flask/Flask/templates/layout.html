@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>Flask App</h1>
+    <br/>
+    {% block content %}
+    <p><em>What is your name?</em>
+        <form action="/welcome" method="POST"><input name="myName"><input type="submit" 
+    {% endblock %}
+    </body>
+    </html>

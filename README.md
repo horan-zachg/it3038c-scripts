@@ -13,8 +13,9 @@ Then github pull https://github.com/uc-glossozj/it3038c-scripts/tree/main/Flask/
 <br />
 Lastly cd into the correct location in your virtual environment and run
 <br />
-```Python
-python .\web.py
+
+```Python python 
+.\web.py
 ```
 <br />
 Hopefully the server works correctly and go to localhost:5000 to check out the flask web pages.

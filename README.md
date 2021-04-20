@@ -8,7 +8,7 @@ pip install virtualenv
 ```
 <br />
 Then run
-```Powershell
+```Python
 virtualenv myenv
 ```
 Then lastly active your virtual environment

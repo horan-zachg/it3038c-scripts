@@ -1,0 +1,28 @@
+<!--Picture page displays picture with flip annimation from https://www.w3schools.com/howto/howto_css_flip_image.asp-->
+
+{% extends "layout.html" %}
+{% block content %}
+<link href="main.css" rel="stylesheet" type="text/css"/>
+<div class="flip-box">
+<div class="flip-box-inner">
+<div class="flip-box-front">
+<img src="\static\WOLFBODY.png" alt="Wolf logo" width=100%" height="100%">
+<body style="background-color:rgba(131, 141, 182, 0.219);"></body>
+</div>
+<div class="flip-box-back">
+<h2>Wolf Picture</h2>
+<p>IT FLIPS!</p>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Button to go back to the home page-->
+<form action="/home">
+<input type="submit" value="Click to go back to home page">
+</form>
+{% endblock %}

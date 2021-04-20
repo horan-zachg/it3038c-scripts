@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<p><em>This is the Welcome page! Hello, {{myName}}</em></p>
+<p><em>Click the button below if you would like to see my wolf logo?</em>
+    <!--Added form for displaying picture-->
+    <form action="/picture">
+        <input type="submit" value="Click This to see Wolf logo">
+    </form>
+    
+    </p>
+{% endblock %}

@@ -1,5 +1,21 @@
 My App
 ======
+Final Project:Flask
+<br />
+To run the flask files run
+```Powershell
+pip install virtualenv```
+<br />
+Then run
+```Powershell
+virtualenv myenv```
+Then
+```Powershell
+source virtualenv_name/bin/activate```
+
+
+
+
 Remote.ps1:
 This script is a practice script for Project 2 in scripting class. 
 <br />

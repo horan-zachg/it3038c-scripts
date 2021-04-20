@@ -6,9 +6,9 @@ To run the flask files run
 <br />
 
 ```Powershell
-pip install virtualenv
-virtualenv myenv
-source virtualenv_name/bin/activate
+py -3 -m venv venv
+venv\Scripts\activate.bat
+pip install flask
 ```
 <br />
 Then github pull https://github.com/uc-glossozj/it3038c-scripts/tree/main/Flask/venv/flask/Flask

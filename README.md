@@ -1,6 +1,6 @@
 My App
 ======
-Final Project:Flask
+Final Project: Flask
 <br />
 To run the flask files run
 ```Powershell

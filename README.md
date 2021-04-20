@@ -16,6 +16,7 @@ Then github pull https://github.com/uc-glossozj/it3038c-scripts/tree/main/Flask/
 Lastly cd into the correct location in your virtual environment and run
 <br />
 
+
 ```Python python 
 .\web.py
 ```

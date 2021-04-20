@@ -5,23 +5,20 @@ Final Project: Flask
 To run the flask files run
 ```Powershell
 pip install virtualenv
-```
-<br />
-Then run
-```Python
 virtualenv myenv
-```
-Then lastly active your virtual environment
-```Powershell
 source virtualenv_name/bin/activate
 ```
-Then github pull the flask files in it3038c-scripts
+<br />
+Then github pull https://github.com/uc-glossozj/it3038c-scripts/tree/main/Flask/venv/flask/Flask
+<br />
 Lastly cd into the correct location in your virtual environment and run
+<br />
 ```Python
 python .\web.py
 ```
 Hopefully the server works correctly and go to localhost:5000 to check out the flask web pages.
-
+<br />
+<br />
 
 Remote.ps1:
 This script is a practice script for Project 2 in scripting class. 

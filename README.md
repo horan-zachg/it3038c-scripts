@@ -26,6 +26,7 @@ Hopefully the server works correctly and go to localhost:5000 to check out the f
 <br />
 
 Project 2: Computer info script
+<br />
 Remote.ps1:
 This script is a practice script for Project 2 in scripting class. 
 <br />

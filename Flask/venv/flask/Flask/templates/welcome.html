@@ -1,6 +1,14 @@
 {% extends "layout.html" %}
 {% block content %}
-<p><em>This is the Welcome page! Hello, {{myName}}</em></p>
+<link rel="stylesheet" href="/static/main.css" type="text/css">
+<p><em>This is the Welcome page! Hello, {{myName}}
+    <br>
+    This is the current host up on your network:
+</em></p>
+<div id="list"><p>
+<iframe src=/static/nmapscan.txt width="1000" height="500"></iframe>
+</p></div>
+
 <p><em>Click the button below if you would like to see my wolf logo?</em>
     <!--Added form for displaying picture-->
     <form action="/picture">
